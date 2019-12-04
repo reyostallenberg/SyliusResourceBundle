@@ -24,7 +24,7 @@
 
         "doctrine/doctrine-bundle": "^1.6",
         "friendsofsymfony/rest-bundle": "^2.1",
-        "jms/serializer-bundle": "^2.0",
+        "jms/serializer-bundle": "^2.0 || ^3.0",
         "stof/doctrine-extensions-bundle": "^1.2",
         "sylius/registry": "^1.2",
         "sylius/resource": "^1.2",
@@ -38,8 +38,8 @@
         "symfony/validator": "^3.4|^4.3",
         "symfony/yaml": "^3.4|^4.3",
         "white-october/pagerfanta-bundle": "^1.0",
-        "willdurand/hateoas-bundle": "^1.2",
-        "winzou/state-machine-bundle": "^0.3"
+        "willdurand/hateoas-bundle": "^1.2 || ^2.0",
+        "winzou/state-machine-bundle": "^0.3 || ^0.4"
     },
     "require-dev": {
         "akeneo/phpspec-skip-example-extension": "^4.0",
